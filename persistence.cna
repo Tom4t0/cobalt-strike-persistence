@@ -149,7 +149,7 @@ sub remBitsadmin{
     else {
         $payloadName = "Updater";
     }
-    $command = 'bitsadmin /cancel $payloadname';
+    $command = "bitsadmin /cancel $payloadName";
     bpowershell($1,$command);
 }
 
